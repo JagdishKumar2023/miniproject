@@ -23,7 +23,7 @@ const Cart = () => {
   };
 
   return (
-    <div>
+    <div className="mainContainer">
       <div>
         <select value={sortOrder} onChange={handleSortChange}>
           <option value="Price low to high">Price low to high</option>

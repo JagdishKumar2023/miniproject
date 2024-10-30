@@ -128,6 +128,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Salad",
     rating_starts: "4.9⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "2",
@@ -138,6 +140,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Salad",
     rating_starts: "1.5⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "3",
@@ -148,6 +152,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Salad",
     rating_starts: "2.5⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "4",
@@ -158,6 +164,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Salad",
     rating_starts: "1.2⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "5",
@@ -168,6 +176,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Rolls",
     rating_starts: "2.5⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "6",
@@ -178,6 +188,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Rolls",
     rating_starts: "4.1⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "7",
@@ -188,6 +200,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Rolls",
     rating_starts: "3.9⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "8",
@@ -198,6 +212,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Rolls",
     rating_starts: "3.6⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "9",
@@ -208,6 +224,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Deserts",
     rating_starts: "4.5⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "10",
@@ -218,6 +236,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Deserts",
     rating_starts: "4.8⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "11",
@@ -228,6 +248,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Deserts",
     rating_starts: "5.0⭐",
+    type: "South Indian",
+    food_area: "South Indian",
   },
   {
     _id: "12",
@@ -238,6 +260,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Deserts",
     rating_starts: "3.9⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "13",
@@ -248,6 +272,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Sandwich",
     rating_starts: "3.9⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "14",
@@ -258,6 +284,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Sandwich",
     rating_starts: "4.8⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "15",
@@ -268,6 +296,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Sandwich",
     rating_starts: "4.9⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "16",
@@ -278,6 +308,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Sandwich",
     rating_starts: "3.9⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "17",
@@ -288,6 +320,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Cake",
     rating_starts: "4.5⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "18",
@@ -298,6 +332,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Cake",
     rating_starts: "4.8⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "19",
@@ -308,6 +344,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Cake",
     rating_starts: "4.6⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "20",
@@ -318,6 +356,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Cake",
     rating_starts: "4.2⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "21",
@@ -328,6 +368,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pure Veg",
     rating_starts: "4.2⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "22",
@@ -338,6 +380,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pure Veg",
     rating_starts: "4.2⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "23",
@@ -348,6 +392,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pure Veg",
     rating_starts: "4.6⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "24",
@@ -358,6 +404,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pure Veg",
     rating_starts: "4.5⭐",
+    type: "North Indian",
+    food_area: "North Indian",
   },
   {
     _id: "25",
@@ -368,6 +416,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pasta",
     rating_starts: "4.6⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "26",
@@ -378,6 +428,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pasta",
     rating_starts: "4.9⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "27",
@@ -388,6 +440,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pasta",
     rating_starts: "3.9⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "28",
@@ -398,6 +452,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Pasta",
     rating_starts: "3.5⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "29",
@@ -408,6 +464,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Noodles",
     rating_starts: "4.3⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "30",
@@ -418,6 +476,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Noodles",
     rating_starts: "5.0⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "31",
@@ -428,6 +488,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Noodles",
     rating_starts: "4.5⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "32",
@@ -438,6 +500,8 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Noodles",
     rating_starts: "3.5⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
   {
     _id: "33",
@@ -448,5 +512,7 @@ export const food_list = [
       "Food provides essential nutrients for overall health and well-being",
     category: "Omlete chesses",
     rating_starts: "3.9⭐",
+    type: "Contiental",
+    food_area: "Contiental",
   },
 ];

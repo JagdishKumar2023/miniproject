@@ -1,9 +1,9 @@
-import Cart from "./components/Cart/Cart";
+import Foodlist from "./components/Foodlist/Foodlist";
 
 const App = () => {
   return (
     <div>
-      <Cart />
+      <Foodlist />
     </div>
   );
 };
