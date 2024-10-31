@@ -1,9 +1,9 @@
-import Foodlist from "./components/Foodlist/Foodlist";
+import Pagination from "./components/Pagination/Pagination";
 
 const App = () => {
   return (
     <div>
-      <Foodlist />
+      <Pagination />
     </div>
   );
 };
