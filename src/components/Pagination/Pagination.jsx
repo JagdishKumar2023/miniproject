@@ -6,11 +6,8 @@ const Pagination = () => {
   const [totalPages, setTotalPages] = useState(0);
   const itemsPerPage = 10;
 
-  //   console.log(totalPages);
-
   const APIURL = "https://jsonplaceholder.typicode.com/posts";
 
-  // Fetch user data when the component mounts
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch(APIURL);
@@ -20,44 +17,63 @@ const Pagination = () => {
     };
 
     fetchData();
-  }, []); // Empty dependency array to run only on mount
+  }, []);
 
-  // Function to handle page change
-  const handlePageChange = (page) => {
-    setCurrentPage(page);
+  const handlePageChange = (pageNumber) => {
+    if (pageNumber >= 1 && pageNumber <= totalPages) {
+      setCurrentPage(pageNumber);
+    }
   };
 
-  // Calculate the data to be displayed on the current page
-  const indexOfLastItem = currentPage * itemsPerPage; // Index of the last item on current page
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage; // Index of the first item on current page
-  const currentItems = userData.slice(indexOfFirstItem, indexOfLastItem); // Items for the current page
+  const handleNext = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
 
-  //   console.log(indexOfLastItem);
+  const handlePrevious = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const itemsToDisplay = userData.slice(startIndex, endIndex);
 
   return (
-    <div>
-      <p>Learn Pagination</p>
-      {currentItems.length > 0 ? (
-        currentItems.map((item) => (
-          <h3 key={item.id}>
-            {item.id} {item.title}
-          </h3>
+    <div className="wrapContainer">
+      <p>Learn coding</p>
+      {itemsToDisplay && itemsToDisplay.length > 0 ? (
+        itemsToDisplay.map((ele, index) => (
+          <div key={ele.id}>
+            <h3>
+              {startIndex + index + 1} {ele.title}
+            </h3>
+          </div>
         ))
       ) : (
         <p>No data available</p>
       )}
 
-      {/* Pagination Controls */}
-      <div>
-        {Array.from({ length: totalPages }, (_, index) => (
+      <div className="pagination-controls">
+        <button onClick={handlePrevious} disabled={currentPage === 1}>
+          &laquo; Previous
+        </button>
+
+        {Array.from({ length: totalPages }, (_, i) => (
           <button
-            key={index + 1}
-            onClick={() => handlePageChange(index + 1)}
-            disabled={currentPage === index + 1} // Disable button if it is the current page
+            onClick={() => handlePageChange(i + 1)}
+            key={i}
+            disabled={currentPage === i + 1}
           >
-            {index + 1}
+            {i + 1}
           </button>
         ))}
+
+        <button onClick={handleNext} disabled={currentPage === totalPages}>
+          Next &raquo;
+        </button>
       </div>
     </div>
   );
