@@ -1,9 +1,9 @@
-import Pagination from "./components/Pagination/Pagination";
+import Search from "./components/Search/Search";
 
 const App = () => {
   return (
     <div>
-      <Pagination />
+      <Search />
     </div>
   );
 };
